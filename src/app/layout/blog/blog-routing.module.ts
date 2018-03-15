@@ -4,7 +4,7 @@ import { BlogComponent } from './blog.component';
 
 const routes: Routes = [
     {
-        path: 'blog',
+        path: '',
         component: BlogComponent
     }
 ];
@@ -13,4 +13,4 @@ const routes: Routes = [
     imports: [RouterModule.forChild(routes)],
     exports: [RouterModule]
 })
-export class ChartsRoutingModule {}
+export class BlogRoutingModule {}
