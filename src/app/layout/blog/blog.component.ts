@@ -9,9 +9,11 @@ import { routerTransition } from '../../router.animations';
 })
 export class BlogComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+  }
 
   ngOnInit() {
   }
 
+public test:string='testty';
 }

@@ -12,6 +12,11 @@ const routes: Routes = [
 
             { path: 'blog', loadChildren: './blog/blog.module#BlogModule' },
 
+            { path: 'blog-read', loadChildren: './blog/read/read.module#ReadModule' },
+            { path: 'blog-write', loadChildren: './blog/write/write.module#WriteModule' },
+
+            { path: 'tos', loadChildren: './tos/tos.module#TosModule' },
+            
             { path: 'tables', loadChildren: './tables/tables.module#TablesModule' },
             { path: 'forms', loadChildren: './form/form.module#FormModule' },
             { path: 'bs-element', loadChildren: './bs-element/bs-element.module#BsElementModule' },
